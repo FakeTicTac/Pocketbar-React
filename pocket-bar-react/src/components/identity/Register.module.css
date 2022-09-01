@@ -1,0 +1,15 @@
+
+.wrapper {
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../../public/photos/login-background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+  }
+
+  .dataBox {
+
+    border-radius: 1rem;
+    border-color: white;
+
+  }

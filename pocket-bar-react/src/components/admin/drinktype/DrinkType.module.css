@@ -1,0 +1,141 @@
+.headerSection {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../../../../public/photos/admin-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 20%;
+
+}
+
+.gallery {
+
+  width: 100%;
+  margin-left: 300px !important;
+  position: relative;
+  padding-bottom: 100px;
+  background-color: #151515;
+  min-height: 100vh;
+
+}
+
+.cardRow {
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.card {
+
+  margin-top: 50px
+}
+
+.btnDelete {
+
+  border-color: black;
+  color: black;
+  background-color: white;
+  width: 45%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.btnModify {
+
+  border-color: rgba(0, 174, 255, 0.582);
+  color: black;
+  background-color: white;
+  width: 45%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.btnDelete:hover {
+
+  background-color: black;
+  color: white !important;
+
+}
+
+.btnModify:hover {
+
+  background-color: rgba(0, 174, 255, 0.582);
+  color: white;
+
+}
+
+.cardText {
+
+  margin-top: 20px;
+  text-justify: inter-word;
+  text-align: justify;
+  margin-bottom: 50px
+}
+
+.cardBtnContainer {
+
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+
+}
+
+.card:hover {
+
+  border: 2px solid black;
+
+}
+
+.imageHeader {
+
+  height: 50px;
+
+}
+
+.hrTop {
+
+  margin-top: 5px;
+
+}
+
+.cardAddButton:hover {
+
+  background-color: greenyellow;
+
+}
+
+.cardAddButton {
+
+  border: 2px solid black;
+
+}
+
+.my {
+
+  font-size: 40px !important;
+  color: black;
+
+}
+
+
+.addCardRow {
+
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-bottom: 15px;
+  height: 50px;
+
+}
+
+.addCardContainer {
+
+  width: 30% !important;
+  height: 100px;
+
+}

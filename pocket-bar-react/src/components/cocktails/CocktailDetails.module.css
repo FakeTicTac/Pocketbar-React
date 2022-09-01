@@ -1,0 +1,166 @@
+.detailContainer {
+
+    background-image: url(../../../public/photos/cocktail-details.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 61px);
+
+}
+
+.buttonModify {
+
+    font-size: 30px;
+    border-color: rgb(255, 174, 0) !important;
+    background-color: black !important;
+
+}
+
+.buttonModify:hover {
+
+    font-size: 30px;
+    border-color: transparent;
+    background-color: rgb(255, 174, 0) !important;
+
+}
+
+.stepField {
+
+    margin-left: 25%;
+    margin-top: 10px;
+
+}
+
+.mainSection {
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+
+}
+
+.buttonDetails {
+
+    font-size: 30px;
+    border-color: rgb(0, 204, 255) !important;
+    background-color: black !important;
+
+}
+
+.buttonDetails:hover {
+
+    font-size: 30px;
+    border-color: transparent;
+    background-color: rgb(0, 204, 255) !important;
+
+}
+
+.detailSection {
+
+    padding-top: 50px;
+
+}
+
+.leftSideProductBox .myImg {
+
+    width: 100%;
+    border-color: transparent !important;
+
+}
+
+.leftSideProductBox .subImg .myImg {
+
+    margin-top: 5px;
+    width: 83px;
+    height: 100px;
+
+}
+
+.cocktailName {
+
+    font-size: 40px !important;
+    color: white !important;
+    font-weight: bold;
+    color: greenyellow !important;
+
+}
+
+.myH5 {
+
+    color: greenyellow;
+
+}
+
+.alcoholFieldFine {
+
+    color: greenyellow !important;
+
+}
+
+.alcoholFieldCare {
+
+    color: red !important;
+
+}
+
+.rightSideProDetail .mySpan {
+
+    font-size: 15px;
+
+}
+
+.texty {
+
+    padding-bottom: 100px;
+
+}
+
+.mySpan {
+
+    float: left;
+    clear: left;
+
+}
+
+.ingredients {
+
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: solid 20px black;
+
+}
+
+.rightSideProDetail .myP {
+    font-size: 25px;
+    color: #a1a1a1;
+
+}
+
+.rightSideProDetail {
+    border-color: transparent !important;
+}
+
+.rightSideProDetail .pricePro {
+    color: #E45641;
+}
+
+.rightSideProDetail .tagSection {
+    font-size: 18px;
+    color: #5D4C46;
+}
+
+.proBoxSection .proBox .myImg {
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width:360px) and (max-width:640px) {
+    .proBoxSection .proBox .myImg {
+        height: auto;
+    }
+}

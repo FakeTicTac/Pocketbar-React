@@ -1,0 +1,43 @@
+.gallery {
+
+  width: 100%;
+  margin-left: 300px !important;
+  position: relative;
+  background-image: url(../../../../public/photos/drink-type-creation-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 20%;
+
+}
+
+.dataBox {
+
+  border-radius: 1rem;
+  border-color: white;
+
+}
+
+.myForm {
+
+  background: #fff;
+
+}
+
+.cardBody {
+
+  border-radius: 1rem;
+  background-color: rgb(51, 49, 49);
+
+}
+
+.leftBtn {
+
+  margin-right: 20px;
+
+}
+
+.rightBtn {
+
+  margin-left: 20px;
+
+}
